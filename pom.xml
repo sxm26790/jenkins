@@ -82,7 +82,12 @@
             <scope>provided</scope>
     </dependency>
     <dependencies>
-    <!-- Other dependencies here -->
+    <!-- Other <dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>3.8.1</version> <!-- One version -->
+    <scope>test</scope>
+</dependency>
     <dependency>
         <groupId>junit</groupId>
         <artifactId>junit</artifactId>
