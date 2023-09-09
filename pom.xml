@@ -81,17 +81,21 @@
             <version>2.5</version>
             <scope>provided</scope>
     </dependency>
+    <dependencies>
+    <!-- Other dependencies here -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>test</scope> <!-- Assuming you are using JUnit for testing -->
     </dependency>
+    <!-- Other dependencies here -->
+</dependencies>
   </dependencies>
     <build>
         <finalName>helloworld</finalName>
         <plugins>
-            <plugin>
+           <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>2.0.2</version>
